@@ -9,7 +9,7 @@ require('dotenv').config();
 const authRouter = require('./router/authen.router')
 const logRouter = require('./router/log.router')
 const validateAuth = require('./validate/auth.validate')
-const deviceRouter = require('./Router/device.router')
+const deviceRouter = require('./router/device.router')
 
 const sessionMiddleware = require('./middleware/session.middleware')
 
